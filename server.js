@@ -17,7 +17,7 @@ app.get('/',(req,res)=>{
   res.send(documents)
 })
 
-let port = process.env.port
+let port = process.env.PORT
 if(port == ""|| port == null){
   port = 3004
 }
